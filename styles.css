@@ -1,0 +1,67 @@
+body {
+  font-family: 'Varela Round', sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 4em;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  order: 1;
+  background-color: #3ea6ff;
+  height: 55vh;
+}
+
+.click {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  order: 2;
+  width: 100%;
+  height: 30vh;
+  background-color: #99c24d;
+}
+
+
+.reset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  order: 3;
+  width: 100%;
+  height: 15vh;
+  background-color: #f18f01;
+}
+
+button {
+  border: 0;
+  padding: 0;
+  background-color: inherit;
+  text-transform: inherit;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 0.5em;
+  font-family: inherit;
+}
+
+button:focus {
+  outline:0;
+  }
+
+#btn1:active {
+  background-color: #88ad44;
+  }
+
+  #btn2:active {
+  background-color: #d47d00;
+  }
