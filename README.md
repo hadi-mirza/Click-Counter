@@ -4,4 +4,4 @@ Click counter made with HTML, CSS, and JS.
 
 ## Play
 
-https://hvzy.github.io/Click-Counter
+https://hvzy.github.io/Click-Counter/
